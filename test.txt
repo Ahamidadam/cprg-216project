@@ -1,0 +1,216 @@
+What would you like to do today?
+
+-Add a car? enter 1
+-Search for car? enter 2     
+-Edit car info? enter 3      
+-Remove a car? enter 4       
+-Print the car list? enter 5 
+-Save the data to a file? enter 6
+-Exit? enter 0.
+1
+
+Enter id of the car, followed by the car's information.   
+Id:
+1
+name:
+Kia_rondo 2024
+make:
+Kia
+Body:
+SUV
+year:
+2024
+value:
+10000
+car is added to the inventory.
+1       Kia_rondo 2024  Kia SUV      2024    10000.0      
+
+Do you want to add more cars? y(yes)/n(no)
+y
+
+Enter id of the car, followed by the car's information.   
+Id:
+1
+name:
+Honda civic 2010
+make:
+Honda
+Body:
+Sedan
+year:
+2010
+value:
+7000
+Incorrect Id. Id already exist in the system.
+
+Do you want to add more cars? y(yes)/n(no)
+y
+
+Enter id of the car, followed by the car's information.   
+Id:
+2
+name:
+Honda civic 2010
+make:
+Honda
+Body:
+Sedan
+year:
+2010
+value:
+7000
+car is added to the inventory.
+2       Honda civic 2010    Honda    Sedan   2010    7000.0
+
+Do you want to add more cars? y(yes)/n(no)
+y
+
+Enter id of the car, followed by the car's information.   
+Id:
+3
+name:
+Honda civic 2010
+make:
+Honda           
+Body:
+Sedan
+year:
+2010
+value:
+7000
+The car is already in the inventory. No action is required..
+
+Do you want to add more cars? y(yes)/n(no)
+y
+
+Enter id of the car, followed by the car's information.   
+Id:
+3
+name:
+BMW_x1
+make:
+BMW
+Body:
+Sedan
+year:
+2010
+value:
+20000
+car is added to the inventory.
+3       BMW_x1  BMW     Sedan2010    20000.0
+
+Do you want to add more cars? y(yes)/n(no)
+n
+
+What would you like to do today?
+
+-Add a car? enter 1
+-Search for car? enter 2     
+-Edit car info? enter 3      
+-Remove a car? enter 4       
+-Print the car list? enter 5 
+-Save the data to a file? enter 6
+-Exit? enter 0.
+2
+
+To search using the Id enter 1. To search using the name of the car enter 2. Enter -1 to return to the previous menu
+1
+Please Enter the id of the car:
+1
+Car found  1    Kia_rondo 2024       Kia     SUV     202410000.0
+
+To search using the Id enter 1. To search using the name of the car enter 2. Enter -1 to return to the previous menu
+2
+Please Enter the name of the car:
+Honda_civic 2010
+Car found  Car not found
+
+To search using the Id enter 1. To search using the name of the car enter 2. Enter -1 to return to the previous menu
+2
+Please Enter the name of the car:
+Honda civic 2010 
+Car found  2    Honda civic 2010     Honda   Sedan   20107000.0
+
+To search using the Id enter 1. To search using the name of the car enter 2. Enter -1 to return to the previous menu
+2
+Please Enter the name of the car:
+byd
+Car found  Car not found
+
+To search using the Id enter 1. To search using the name of the car enter 2. Enter -1 to return to the previous menu
+-1
+
+What would you like to do today?
+
+-Add a car? enter 1
+-Search for car? enter 2     
+-Edit car info? enter 3      
+-Remove a car? enter 4       
+-Print the car list? enter 5 
+-Save the data to a file? enter 6
+-Exit? enter 0.
+3
+
+Enter the id of the car. Enter -1 to return to the previous menu
+3
+Name:
+BMW_x2
+make:
+BMW
+Body:
+Sedan
+year:
+2020
+value:
+30000
+Car's new info is  3    BMW_x2       BMW     Sedan   202030000.0
+
+Enter the id of the car. Enter -1 to return to the previous menu
+4
+Car not found
+
+Enter the id of the car. Enter -1 to return to the previous menu
+-1 
+
+What would you like to do today?
+
+-Add a car? enter 1
+-Search for car? enter 2     
+-Edit car info? enter 3      
+-Remove a car? enter 4       
+-Print the car list? enter 5 
+-Save the data to a file? enter 6
+-Exit? enter 0.
+4
+
+Enter id of the car that you want to remove from the inventory.
+id:
+3
+car removed
+Do you want to remove more cars? y(yes)/n(no) n
+
+What would you like to do today?
+
+-Add a car? enter 1
+-Search for car? enter 2     
+-Edit car info? enter 3      
+-Remove a car? enter 4       
+-Print the car list? enter 5 
+-Save the data to a file? enter 6
+-Exit? enter 0.
+5
+1       Kia_rondo 2024  Kia SUV      2024    10000.0      
+2       Honda civic 2010    Honda    Sedan   2010    7000.0
+
+What would you like to do today?
+
+-Add a car? enter 1
+-Search for car? enter 2     
+-Edit car info? enter 3      
+-Remove a car? enter 4       
+-Print the car list? enter 5 
+-Save the data to a file? enter 6
+-Exit? enter 0.
+6
+Data saved to local file successfully!
+ay?
